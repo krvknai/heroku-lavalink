@@ -1,5 +1,5 @@
 server: # REST and WS server
-  port: "PORT"  # DO NOT CHANGE ME; YOUR SERVER WILL NOT WORK IF CHANGED.
+  port: "8080"  # DO NOT CHANGE ME; YOUR SERVER WILL NOT WORK IF CHANGED.
   address: lavalinkkrvkn-ff717311a1ac.herokuapp.com
 lavalink:
   server:
