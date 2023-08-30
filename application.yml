@@ -1,6 +1,6 @@
 server: # REST and WS server
   port: "8080"  # DO NOT CHANGE ME; YOUR SERVER WILL NOT WORK IF CHANGED.
-  address: lavalinkkrvkn-ff717311a1ac.herokuapp.com
+  address: lavalinkkrvkn
 lavalink:
   server:
     password: "youshallnotpass" # DO NOT CHANGE ME; SET PASSWORD IN HEROKU "CONFIG VARS" MENU
