@@ -9,7 +9,7 @@ const GITHUB_REPO = process.env.GITHUB_REPO || "freyacodes/Lavalink";
 let application = fs.readFileSync("./application.yml", "utf8")
 
 if (process.env.PORT) {
-    application = application.replace("DYNAMICPORT", process.env.PORT)
+    application = application.replace("PORT", process.env.PORT)
 }
 
 if (process.env.PASS) {
